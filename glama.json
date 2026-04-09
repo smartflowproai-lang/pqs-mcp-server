@@ -1,0 +1,26 @@
+{
+  "name": "pqs-verification",
+  "display_name": "PQS — Protocol Quality Standard",
+  "description": "Verify x402 API endpoints before payment. Trust primitive for the AI agent economy. Check if a data provider is legitimate, get certificates, verify on-chain attestations.",
+  "icon": "https://smartflowproai.com/favicon.ico",
+  "tools": [
+    {
+      "name": "pqs_verify_endpoint",
+      "description": "Check if an API endpoint is PQS-verified before paying via x402"
+    },
+    {
+      "name": "pqs_get_certificate",
+      "description": "Retrieve full PQS certificate for a verified provider"
+    },
+    {
+      "name": "pqs_check_attestation",
+      "description": "Verify response against on-chain EAS attestation on Base"
+    },
+    {
+      "name": "pqs_list_verified_providers",
+      "description": "List all providers currently verified by PQS"
+    }
+  ],
+  "category": "security",
+  "tags": ["verification", "trust", "x402", "agents", "certificates"]
+}

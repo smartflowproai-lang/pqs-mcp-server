@@ -1,0 +1,17 @@
+name: pqs-verification
+description: >
+  PQS (Protocol Quality Standard) verification server for AI agents.
+  Verify x402 endpoints before payment, retrieve certificates,
+  check on-chain attestations. Let's Encrypt for the agent economy.
+version: 0.1.0
+author: Tom Smart
+homepage: https://smartflowproai.com
+repository: https://github.com/smartflowproai-lang/pqs-mcp-server
+license: MIT
+runtime: node
+startCommand:
+  command: node
+  args:
+    - src/index.js
+  env:
+    PQS_CA_URL: http://localhost:4025
