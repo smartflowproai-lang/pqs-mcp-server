@@ -1,0 +1,40 @@
+{
+  "name": "pqs-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP Server for PQS (Protocol Quality Standard) — endpoint verification for AI agent economy",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "pqs-mcp": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "pqs",
+    "x402",
+    "ai-agents",
+    "verification",
+    "certificate-authority",
+    "trust"
+  ],
+  "author": "Tom Smart <info@smartflowproai.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartflowproai-lang/pqs-mcp-server"
+  },
+  "files": [
+    "src/",
+    "README.md"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.23.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
